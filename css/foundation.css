@@ -1,0 +1,3 @@
+/* Übernommene, projektneutrale Basisregeln aus der Tailwind-Preflight-Schicht
+   der Originalseite – bewusst ohne deren Utility-Klassen und Farbthemen. */
+*,::before,::after{box-sizing:border-box}html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}img,picture,svg,video,canvas{display:block;max-width:100%;height:auto}button,[role="button"]{cursor:pointer}button,input,select,textarea{font:inherit;color:inherit}input::placeholder,textarea::placeholder{color:#94a3b8;opacity:1}textarea{resize:vertical}

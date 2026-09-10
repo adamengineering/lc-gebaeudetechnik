@@ -1,0 +1,5 @@
+@media (min-width: 70rem) {
+  .services-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

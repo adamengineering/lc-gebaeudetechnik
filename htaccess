@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+Options -Indexes
+
+# Bei nicht vorhandenen Adressen eine echte HTTP-404-Antwort mit der eigenen Seite ausliefern.
+ErrorDocument 404 /404.html
+
+AddDefaultCharset UTF-8
