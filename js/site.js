@@ -238,11 +238,6 @@ if (location.pathname.includes("/ueber-uns/")) {
       "Leonardo Salvatore",
       "l.salvatore@lc-gebaeudetechnik.ch",
     ],
-    [
-      "/assets/cosimo_ardito.png",
-      "Cosimo Ardito",
-      "c.ardito@lc-gebaeudetechnik.ch",
-    ],
   ].forEach(([src, alt, email], index) => {
     const card = document.querySelectorAll(".section-dark .content-card")[index];
     if (!card || card.querySelector("img")) return;
