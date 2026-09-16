@@ -214,7 +214,7 @@ if (button && nav) {
 if (!document.querySelector(".site-footer")) {
   document.body.insertAdjacentHTML(
     "beforeend",
-    '<footer class="site-footer"><div class="shell footer-grid"><div><a class="brand" href="index.html"><span>L&amp;C</span> Gebäudetechnik<small>St. Gallen</small></a><p>Heizung, Sanitär, Klima &amp; Solar aus einer Hand.</p></div><div><h2>Kontakt</h2><a href="tel:+41712525545">071 252 55 45</a><a href="mailto:info@lc-gebaeudetechnik.ch">info@lc-gebaeudetechnik.ch</a><p>Industriestrasse 15<br>9015 St. Gallen</p></div><div><h2>Navigation</h2><a href="leistungen.html">Leistungen</a><a href="projekte.html">Projekte</a><a href="ueber-uns.html">Über uns</a><a href="kontakt.html">Kontakt</a></div></div><div class="shell footer-bottom">© <span data-year></span> L&amp;C Gebäudetechnik GmbH</div></footer>',
+    '<footer class="site-footer"><div class="shell footer-grid"><div><a class="brand" href="index.html"><span>L&amp;C</span> Gebäudetechnik<small>St. Gallen</small></a><p>Heizung, Sanitär, Kälte &amp; Solar aus einer Hand.</p></div><div><h2>Kontakt</h2><a href="tel:+41712525545">071 252 55 45</a><a href="mailto:info@lc-gebaeudetechnik.ch">info@lc-gebaeudetechnik.ch</a><p>Industriestrasse 15<br>9015 St. Gallen</p></div><div><h2>Navigation</h2><a href="leistungen.html">Leistungen</a><a href="projekte.html">Projekte</a><a href="ueber-uns.html">Über uns</a><a href="kontakt.html">Kontakt</a></div></div><div class="shell footer-bottom">© <span data-year></span> L&amp;C Gebäudetechnik GmbH</div></footer>',
   );
 }
 normalizeRoutes();
